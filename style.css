@@ -29,10 +29,10 @@
         
         .box:hover {
             box-shadow: 0 40px 0 -20px #19b73e, 0 -40px 0 -20px #dc0028, -40px 0 0 -20px #1328db, 40px 0 0 -20px #ff560b;
-            inset 0 40px 0 -20px #19b73e,
-            inset 0 -40px 0 -20px #dc0028,
-            inset -40px 0 0 -20px #1328db,
-            inset 40px 0 0 -20px #ff560b;
+            inset: 0 40px 0 -20px #19b73e;
+            inset: 0 -40px 0 -20px #dc0028;
+            inset: -40px 0 0 -20px #1328db;
+            inset: 40px 0 0 -20px #ff560b;
         }
         
         .box h2 {
